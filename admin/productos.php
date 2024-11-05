@@ -72,7 +72,6 @@ try {
     <title>Crear Productos</title>
     <link rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2020/04/20/21/18/tree-5069963_960_720.jpg">
     <link rel="stylesheet" href="../assets/css/styles.css">
-    <link rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2020/04/20/21/18/tree-5069963_960_720.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9e805df0a7.js" crossorigin="anonymous"></script>
 </head>

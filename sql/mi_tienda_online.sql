@@ -34,8 +34,11 @@ CREATE TABLE `usuarios` (
 
 INSERT INTO usuarios (nombre, apellidos, email, rol, dni, direccion, telefono, contrasena) VALUES
 ('Jorge', 'Fabro García', 'jorge@fabro.com', 'Admin', '12345678A', 'Calle Falsa 123', 123456789, 'admin1'),
-('Admin', '', 'admin@admin.com',  'Admin', '98765432B', '', 987654321, 'admin'),
-('Juan', 'Pérez López', 'juan@perez.com', 'Usuario', '87654321B', 'Calle Falsa 324', 987654321, '1234');
+('Admin', 'Admin Admin', 'admin@admin.com',  'Admin', '98765432B', '', 987654321, 'admin'),
+('Juan', 'Pérez López', 'juan@perez.com', 'Usuario', '87654321B', 'Calle Falsa 324', 987654321, '1234'),
+('Ana', 'García Márquez', 'ana@garcia.com', 'Usuario', '23456789C', 'Calle Real 456', 234567890, 'ana123'),
+('Luis', 'Martínez Ruiz', 'luis@martinez.com', 'Usuario', '34567890D', 'Avenida Siempre Viva 789', 345678901, 'luis123'),
+('María', 'López Fernández', 'maria@lopez.com', 'Usuario', '45678901E', 'Calle Luna 101', 456789012, 'maria123');
 
 CREATE TABLE categorias (
   `id` int(11) NOT NULL auto_increment primary key,
@@ -75,7 +78,12 @@ INSERT INTO productos(nombre, precioUnitario, imagen, stock) VALUES
 ('Taladro', 54.99, 'https://media.adeo.com/media/1912628/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds', 57),
 ('Caja DIY de 100 tornillos bicromatados (3,5x16 mm)', 7.52, 'https://media.adeo.com/mkp/5894ecc7e638a92c93376e9533f4d3f2/media.jpg?width=650&height=650&format=jpg&quality=80&fit=bounds', 42),
 ('Tabla de Roble', 4.93,'https://live.staticflickr.com/2246/1495245032_33ac3e5ee7_c.jpg',  100),
-('Pala punta 5501-4 MA.CL', '11.15','https://bellota.b-cdn.net/CMP4506/1/FM3443BI17104_SA_155804_SZ6.png', 10);
+('Pala punta 5501-4 MA.CL', '11.15','https://bellota.b-cdn.net/CMP4506/1/FM3443BI17104_SA_155804_SZ6.png', 10),
+('Sierra de Mano', 15.99, 'https://example.com/sierra.jpg', 30),
+('Destornillador', 3.50, 'https://example.com/destornillador.jpg', 100),
+('Clavos 50mm', 5.20, 'https://example.com/clavos.jpg', 200),
+('Tablón de Pino', 12.75, 'https://example.com/pino.jpg', 50),
+('Llave Inglesa', 8.99, 'https://example.com/llave.jpg', 40);
 
 create table `procat` (
 `id_producto` int(11) NOT NULL,
@@ -89,7 +97,12 @@ INSERT INTO procat (id_producto, id_categoria) VALUES
 (2, 2),
 (3, 3),
 (4, 1),
-(5, 2);
+(5, 2),
+(6, 2),  
+(7, 2),  
+(8, 3),  
+(9, 1),  
+(10, 2); 
 
 CREATE TABLE `carrito` (
   `id` int(11) NOT NULL auto_increment primary key,
