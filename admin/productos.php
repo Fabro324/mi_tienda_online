@@ -97,7 +97,7 @@ try {
                 <div style="display:flex; display:flex; justify-content:space-evenly; font-size: 20px; align-items:center;">
                     <div>
                         <label for="nombre">Nombre:</label><br><br>
-                        <label for="apellidos">Apellidos:</label><br><br>
+                        <label for="precio">Precio:</label><br><br>
                         <label for="image">Url de la imagen: </label><br><br>
                         <label for="stock">Stock: </label>
                     </div>
