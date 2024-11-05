@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>footeer</title>
+    <title>footer</title>
 </head>
 <footer>
-<p>&copy;todoencarpinteria.ess</p>
+<p>&copy;todoencarpinteria.es</p>
 </footer>
 </html>
